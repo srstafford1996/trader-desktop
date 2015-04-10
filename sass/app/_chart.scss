@@ -1,0 +1,22 @@
+$total-color: #FFEFBF;
+$placed-color: #FEBB68;
+$executed-color: #FF8000;
+
+
+div#chart-container{
+    background-color: #FFF;
+}
+#chart svg{
+    
+    rect.total{
+        fill: $total-color;
+    }
+
+    rect.executed{
+        fill: $executed-color;
+    }
+
+    rect.placed{
+        fill: $placed-color;
+    }
+}

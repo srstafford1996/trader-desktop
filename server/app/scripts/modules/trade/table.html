@@ -1,0 +1,29 @@
+<table>
+    <thead ng-show="rootOrders != 0">
+        <td> Id </td>
+        <td> Creation Time </td>
+        <td> Side </td>
+        <td> Symbol </td>
+        <td> Quantity </td>
+        <td> Placed </td>
+        <td> Executed </td>
+        <td> Limit Price </td>
+        <td> Priority </td>
+        <td> Status </td>
+        <td> Trader </td>
+    </thead>
+
+    <tr ng-repeat="order in rootOrders">
+        <td> {{order.id}} </td>
+        <td> {{order.creationTime}} </td>
+        <td> {{order.side}} </td>
+        <td> {{order.symbol}} </td>
+        <td> {{order.quantity}} </td>
+        <td> {{order.quantityPlaced}} </td>
+        <td> {{order.quantityExecuted}} </td>
+        <td> ${{order.limitPrice}} </td>
+        <td> {{order.priority}} </td>
+        <td> {{order.status}} </td>
+        <td> {{order.traderId}} </td>
+    </tr>
+</table>

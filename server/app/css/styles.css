@@ -1,0 +1,108 @@
+html, body {
+  padding: 0px;
+  margin: 0px;
+  font-family: arial;
+  background-color: #e0e0e0; }
+
+.button {
+  background-color: #000;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  color: #FFF; }
+
+.button:active {
+  background-color: #c0c0c0; }
+
+.container {
+  width: 100%; }
+
+.trade-view {
+  max-width: 1024px;
+  border: 1px solid #000;
+  margin: 0 auto; }
+  .trade-view #header {
+    width: 100%;
+    height: 70px; }
+    .trade-view #header hr {
+      margin: 8px; }
+    .trade-view #header #title {
+      padding: 0px 10px;
+      font-size: 16px; }
+    .trade-view #header #sess-info {
+      float: right;
+      padding: 0px 10px; }
+      .trade-view #header #sess-info span {
+        font-size: 16px;
+        font-style: italic; }
+      .trade-view #header #sess-info a {
+        color: #0000FF;
+        font-size: 12px;
+        padding: 10px;
+        text-decoration: none; }
+    .trade-view #header #button-container {
+      padding: 0px 10px;
+      float: left; }
+      .trade-view #header #button-container .button {
+        width: 90px;
+        height: 25px;
+        display: inline-block; }
+    .trade-view #header #icon-container {
+      float: right;
+      padding: 0px 10px; }
+      .trade-view #header #icon-container .icon {
+        width: 30px;
+        height: 25px;
+        display: inline-block; }
+      .trade-view #header #icon-container .selected {
+        background-color: #c0c0c0; }
+
+.trade-view table {
+  text-align: center;
+  width: 100%;
+  border-spacing: none;
+  border-collapse: collapse; }
+  .trade-view table thead {
+    font-size: 14pt;
+    background-color: #c0c0c0; }
+  .trade-view table tbody {
+    background-color: #FFFFFF; }
+    .trade-view table tbody tr {
+      height: 30px;
+      width: 100%; }
+
+div#chart-container {
+  background-color: #FFF; }
+
+#chart svg rect.total {
+  fill: #FFEFBF; }
+#chart svg rect.executed {
+  fill: #FF8000; }
+#chart svg rect.placed {
+  fill: #FEBB68; }
+
+.trade-view table {
+  text-align: center;
+  width: 100%;
+  border-spacing: none;
+  border-collapse: collapse; }
+  .trade-view table thead {
+    font-size: 14pt;
+    background-color: #c0c0c0; }
+  .trade-view table tbody {
+    background-color: #FFFFFF; }
+    .trade-view table tbody tr {
+      height: 30px;
+      width: 100%; }
+
+div#chart-container {
+  background-color: #FFF; }
+
+#chart svg rect.total {
+  fill: #FFEFBF; }
+#chart svg rect.executed {
+  fill: #FF8000; }
+#chart svg rect.placed {
+  fill: #FEBB68; }
+
+/*# sourceMappingURL=styles.css.map */

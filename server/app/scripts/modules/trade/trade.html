@@ -1,0 +1,22 @@
+<div class = "trade-view">
+    <div id = "header">
+        <span id="title"> Trader Desktop </span>
+
+        <div id="sess-info">
+            <span> {{currentUser.name}} </span>
+            <a href="#" ng-click="signOut()">Sign out</a>
+        </div>
+        <hr>
+        <div id = "button-container">
+            <button href="#" class = "button" ng-click = "trade()"> Trade </button>
+            <button class = "button" ng-click = "delete()"> Delete All </button>
+            <button href="#" class = "button" ng-click = "refresh()"> Refresh </button>
+        </div>
+        <div id = "icon-container">
+            <button id="table-icon" class="icon button" ui-sref-active="selected" ui-sref="trade.table" > <img src="/res/table.png" /> </button>
+            <button id="chart-icon" class="icon button" ui-sref-active="selected" ui-sref="trade.chart"> <img src="/res/chart.png" /></button>
+        </div>
+    </div>
+
+    <div ui-view> </ui-view>
+</div>

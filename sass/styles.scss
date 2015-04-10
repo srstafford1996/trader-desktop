@@ -1,0 +1,34 @@
+$background-color: #e0e0e0;
+$link-color: #0000FF;
+$grey: #c0c0c0;
+$white: #FFFFFF;
+
+
+html, body{
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+    background-color: $background-color;
+}
+
+
+.button{
+    background-color: #000;
+    text-decoration: none;
+    text-align:center;
+    border:none;
+    color: #FFF;
+}
+
+.button:active{
+    background-color: $grey;
+}
+
+.container{
+    width: 100%;
+}
+
+
+@import 'app/_trade';
+@import 'app/_table';
+@import 'app/_chart';

@@ -1,0 +1,21 @@
+.trade-view{
+    table{
+        text-align: center;
+        width: 100%;
+        border-spacing: none;
+        border-collapse: collapse;
+
+        thead{
+            font-size: 14pt;
+            background-color: $grey;
+        }
+
+        tbody{
+            background-color: $white;
+            tr{
+                height: 30px;
+                width: 100%;
+            }
+        }
+    }
+}
