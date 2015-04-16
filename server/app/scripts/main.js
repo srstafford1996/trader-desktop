@@ -7,6 +7,7 @@ define(function(require){
     angular.module('Trader-Desktop',
         ['ui.router'])
     .factory('Orders', require('services/orders'))
+    .directive('ngBarChart', require('modules/trade/chart'))
     .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
 
         //Bootstraps!

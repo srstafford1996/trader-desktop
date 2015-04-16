@@ -19,7 +19,7 @@ define(function(){
             });
 
             socket.on('placementCreatedEvent', function(placement){
-                console.log(placement);
+
                 $rootScope.$apply(function(){
                     var index = null;
                     var order = $.grep($rootScope.rootOrders, function(e, i){ 
@@ -37,7 +37,6 @@ define(function(){
             });
 
             socket.on('executionCreatedEvent', function(execution){
-                console.log(execution);
                 $rootScope.$apply(function(){
                     var index = null;
                     var order = $.grep($rootScope.rootOrders, function(e, i){ 

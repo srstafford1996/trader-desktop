@@ -19,4 +19,39 @@ div#chart-container{
     rect.placed{
         fill: $placed-color;
     }
+
+    .x-axis text{
+        font-size: 12px;
+    }
+
+    .x-axis path, line{
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+
+    g.tick line{
+        stroke: #C1C1C1;
+    }
+
+    .chart-title{
+        font-size: 16px;
+    }
+
+    .chart-label{
+        font-size: 12px;
+    }
+
+    .total-label{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .total-data{
+        font-size: 12px;
+    }
+
+    .legend-label{
+        font-size: 12px;
+    }
+
 }

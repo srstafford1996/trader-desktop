@@ -4,6 +4,10 @@ define(function(){
 
     var controller = function($scope, $state, $rootScope, Orders){
 
+        //Chart value initializtion
+        $scope.barHeight = 25;
+        $scope.barSpacing = 5;
+
         /* Login Redirect */
         if(!$rootScope.active_user)
             $state.go('login');
@@ -44,6 +48,11 @@ define(function(){
             
             }
         };
+
+
+        /* Chart Initilization */
+
+        
 
 
 

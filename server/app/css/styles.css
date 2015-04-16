@@ -80,6 +80,25 @@ div#chart-container {
   fill: #FF8000; }
 #chart svg rect.placed {
   fill: #FEBB68; }
+#chart svg .x-axis text {
+  font-size: 12px; }
+#chart svg .x-axis path, #chart svg line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges; }
+#chart svg g.tick line {
+  stroke: #C1C1C1; }
+#chart svg .chart-title {
+  font-size: 16px; }
+#chart svg .chart-label {
+  font-size: 12px; }
+#chart svg .total-label {
+  font-size: 12px;
+  font-weight: bold; }
+#chart svg .total-data {
+  font-size: 12px; }
+#chart svg .legend-label {
+  font-size: 12px; }
 
 .trade-view table {
   text-align: center;
@@ -104,5 +123,24 @@ div#chart-container {
   fill: #FF8000; }
 #chart svg rect.placed {
   fill: #FEBB68; }
+#chart svg .x-axis text {
+  font-size: 12px; }
+#chart svg .x-axis path, #chart svg line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges; }
+#chart svg g.tick line {
+  stroke: #C1C1C1; }
+#chart svg .chart-title {
+  font-size: 16px; }
+#chart svg .chart-label {
+  font-size: 12px; }
+#chart svg .total-label {
+  font-size: 12px;
+  font-weight: bold; }
+#chart svg .total-data {
+  font-size: 12px; }
+#chart svg .legend-label {
+  font-size: 12px; }
 
 /*# sourceMappingURL=styles.css.map */
